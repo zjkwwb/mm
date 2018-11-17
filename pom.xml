@@ -4,4 +4,18 @@
   <artifactId>kk</artifactId>
   <version>1.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+  <dependencies>
+  	<dependency>
+          <groupId>com.aliyun</groupId>
+          <artifactId>aliyun-java-sdk-core</artifactId>
+          <version>3.2.2</version>
+	</dependency>
+	<dependency>
+	       <groupId>com.yytp.lib</groupId>
+	       <artifactId>aliyun-java-sdk-dysmsapi-1.0.0-20170919</artifactId>
+	       <version>1.0.0</version>
+	</dependency>
+
+  </dependencies>
 </project>
